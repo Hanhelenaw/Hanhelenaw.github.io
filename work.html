@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html class="no-js">
   <head>
     <meta charset="utf-8">
@@ -27,6 +27,13 @@
     <script src="js/jquery.counterup.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+      <!-- Remodal -->
+      <script src="js/remodal.min.js"></script>
+      <link rel="stylesheet" href="css/remodal.css" />
+      <link rel="stylesheet" href="css/remodal-default-theme.css" />
+
+
   </head>
   <body>
 
@@ -99,18 +106,90 @@
                   </div>
                   <div class="portfolio-contant">
                     <ul id="portfolio-contant-active">
-                        <li class="mix Branding">
-                          <a href="#">
-                            <img src="img/portfolio/work1.jpg" alt="">
+                        <!-- birthday card -->
+                        <li class="mix Graphic">
+                          <a href="#rp-bdaycard">
+                            <img src="porfoilo/graphic/bdaycard/bdaycard.jpg" alt="Birthday Card">
                             <div class="overly">
                               <div class="position-center">
-                                <h2>Tesla Motors</h2>
-                                <p>Labore et dolore magna aliqua. Ut enim ad </p>
+                                <h2>Birthday Card</h2>
+                                <p>Optional bs here</p>
                                 
                               </div>
                             </div>
                           </a>
                       </li>
+
+                        <!-- poster -->
+                        <li class="mix Graphic">
+                            <a href="#rp-poster">
+                                <img src="porfoilo/graphic/poster.jpg" alt="Poster">
+                                <div class="overly">
+                                    <div class="position-center">
+                                        <h2>Poster</h2>
+                                        <p>Optional bs here</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- name card -->
+                        <li class="mix Graphic">
+                            <a href="#rp-business-card">
+                                <img src="porfoilo/graphic/namecardmizzle.png" alt="Business Card">
+                                <div class="overly">
+                                    <div class="position-center">
+                                        <h2>Business Card</h2>
+                                        <p>Optional bs here</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- leaves -->
+                        <li class="mix Graphic">
+                            <a href="#rp-leaves">
+                                <img src="porfoilo/graphic/leaves.jpg" alt="leaves">
+                                <div class="overly">
+                                    <div class="position-center">
+                                        <h2>Leaves</h2>
+                                        <p>Optional bs here</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- gender right -->
+                        <li class="mix Graphic">
+                            <a href="#rp-gender-right">
+                                <img src="porfoilo/graphic/gender_right.jpg" alt="leaves">
+                                <div class="overly">
+                                    <div class="position-center">
+                                        <h2>Gender Right</h2>
+                                        <p>Optional bs here</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Tinder info graphic -->
+                        <li class="mix Graphic">
+                            <a href="#rp-tinder-info-graphic">
+                                <img src="porfoilo/graphic/tinderinfo.jpg" alt="leaves">
+                                <div class="overly">
+                                    <div class="position-center">
+                                        <h2>Gender Right</h2>
+                                        <p>Optional bs here</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
                       <li class="mix Websites">
                         <a href="#">
                           <img src="img/portfolio/work2.jpg" alt="">
@@ -123,6 +202,7 @@
                           </div>
                         </a>
                       </li>
+
                       <li class="mix Graphic">
                         <a href="#">
                           <img src="img/portfolio/work3.jpg" alt="">
@@ -180,57 +260,93 @@
         </div>
     </section>
 
-    <!-- Clients Logo Section Start -->
-    <section id="clients-logo-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="block">
-              <div id="clients-logo" class="owl-carousel">
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo1.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo2.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo3.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo4.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo5.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo3.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo2.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo5.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo1.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo4.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo5.png" alt="Features">
-                </div>
-                <div class="clients-logo-img">
-                  <img src="img/clients/clients-logo3.png" alt="Features">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Portfolio divs -->
+      <!-- Birthday card -->
+      <div class="portfolio-modal remodal" data-remodal-id="rp-bdaycard"> <!-- rp stands for remodal-portfolio -->
+        <h1>Birthday Card</h1>
+        <p>Optional bs here</p>
+        <br />
+        <figure>
+            <img class="portfolio-modal-img" src="porfoilo/graphic/bdaycard/back1.jpg" />
+            <figcaption>inner content</figcaption>
+        </figure>
+        <figure>
+            <img class="portfolio-modal-img" src="porfoilo/graphic/bdaycard/cardtheme.png" />
+            <figcaption>theme</figcaption>
+        </figure>
+        <figure>
+            <img class="portfolio-modal-img" src="porfoilo/graphic/bdaycard/frontcard.jpg" />
+            <figcaption>front</figcaption>
+        </figure>
+        <figure>
+            <img class="portfolio-modal-img" src="porfoilo/graphic/bdaycard/lion.jpg" />
+            <figcaption>back cover</figcaption>
+        </figure>
       </div>
-    </section>
 
-  
+      <!-- poster-->
+      <div class="portfolio-modal remodal" data-remodal-id="rp-poster">
+          <!-- rp stands for remodal-portfolio -->
+          <h1>Poster</h1>
+          <p>Optional bs here</p>
+          <br />
+          <figure>
+              <img class="portfolio-modal-img" src="porfoilo/graphic/poster.png" />
+          </figure>
+      </div>
+
+      <!-- name card -->
+      <div class="portfolio-modal remodal" data-remodal-id="rp-business-card">
+          <!-- rp stands for remodal-portfolio -->
+          <h1>Business Card</h1>
+          <p>Optional bs here</p>
+          <br />
+          <figure>
+              <img class="portfolio-modal-img" src="porfoilo/graphic/Namecard.jpg" />
+              <figcaption>front</figcaption>
+          </figure>
+          <figure>
+              <img class="portfolio-modal-img" src="porfoilo/graphic/namecard2.jpg" />
+              <figcaption>back</figcaption>
+          </figure>
+      </div>
+
+      <!-- leaves -->
+      <div class="portfolio-modal remodal" data-remodal-id="rp-leaves">
+          <!-- rp stands for remodal-portfolio -->
+          <h1>Leaves - Graphic Design</h1>
+          <p>Optional bs here</p>
+          <br />
+          <figure>
+              <img class="portfolio-modal-img" src="porfoilo/graphic/leaves_content.jpg" />
+          </figure>
+
+      </div>
+
+      <!-- gender right -->
+      <div class="portfolio-modal remodal" data-remodal-id="rp-gender-right">
+          <!-- rp stands for remodal-portfolio -->
+          <h1>Gender Right</h1>
+          <p>Optional bs here</p>
+          <br />
+          <figure>
+              <img class="portfolio-modal-img" src="porfoilo/graphic/gender_right_content.jpg" />
+          </figure>
+
+      </div>
+
+      <!-- tinder info graphic -->
+      <div class="portfolio-modal remodal" data-remodal-id="rp-tinder-info-graphic">
+          <!-- rp stands for remodal-portfolio -->
+          <h1>Tinder Info Graphic</h1>
+          <p>Optional bs here</p>
+          <br />
+          <figure>
+              <img class="portfolio-modal-img" src="porfoilo/graphic/tinderinfo.jpg" />
+          </figure>
+
+      </div>
+
 <!-- Call to action Start -->
     <section id="call-to-action">
       <div class="container">

@@ -493,9 +493,23 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 13px;
   color: #655E7A;
 }
+.centre-image-helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
 #portfolio-work .block .portfolio-contant ul img {
   width: 100%;
   height: auto;
+  vertical-align: middle;
+}
+.portfolio-modal .portfolio-modal-img{
+    width: 100%;
+}
+.portfolio-modal figure{
+    width: 80%;
+    padding-bottom: 10%;
+    margin:auto;
 }
 #portfolio-work .block .portfolio-contant .overly {
   position: absolute;
