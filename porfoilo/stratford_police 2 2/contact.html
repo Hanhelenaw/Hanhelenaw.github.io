@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Stratford Police Service</title>
+	<meta name="description" content="Strat">
+	<meta name="author" content="SitePoint">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<script src="js/scripts.js"></script>
+	
+	<div class="main">
+		<div class="left" w3-include-html="includes/left.html"></div>
+		<div class="right">
+			<div class="content">
+                <div class="content-left">
+                    <div class="whole-height" style="background-image: url('img/contact.jpg');">
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="title-container">
+                        <h1>CONTACT</h1>
+                    </div>
+                    <div class="contact small" w3-include-html="includes/contact.html"></div>
+                    <div class="page-content contact-page">
+                        <h3>EMERGENCY</h3>
+                        <h1>CALL 911</h1>
+                        <h3>OTHER INQUIRIES</h3>
+                        <p>For non-emergency inquiries, please call 519-271-4147</p>
+                        <h3>HEADQUARTERS</h3>
+                        <p>
+                            Stratford Police Service<br>
+                            17 George Street West, PO Box 21041<br>
+                            Stratford, ON N5A 7V4
+                        </p>
+                    </div>
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;'><div id='gmap_canvas' style='height:400px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.net/'>google maps html widget</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=559d0770d81b30b326df6f3a55afd4cc6e5f8037'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(43.37153567006996,-80.98541682753905),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(43.37153567006996,-80.98541682753905)});infowindow = new google.maps.InfoWindow({content:'<strong>Stratford Police Association</strong><br>17 George St W<br>N5A 1A6 Stratford, ON<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                </div>
+			</div>
+		</div>
+	</div>
+	<script src="js/w3-include.js"></script>
+</body>
+</html>
