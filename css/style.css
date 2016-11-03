@@ -465,6 +465,19 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 6px;
   position: relative;
 }
+
+#portfolio-work .block .portfolio-contant ul li.Video {
+  width: 32.22%;
+}
+
+#portfolio-work .block .portfolio-contant ul li.Moment {
+  width: 100%;
+}
+
+#portfolio-work .block .portfolio-contant ul li.Moment img{
+  padding-bottom:2px;
+}
+
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
 }
@@ -507,8 +520,8 @@ font header .navbar-default .navbar-nav li a:hover {
     width: 100%;
 }
 .portfolio-modal figure{
-    width: 80%;
-    padding-bottom: 10%;
+    width: 90%;
+    padding-bottom: 2px;
     margin:auto;
 }
 #portfolio-work .block .portfolio-contant .overly {

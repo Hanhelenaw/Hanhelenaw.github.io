@@ -1,7 +1,11 @@
 $(document).ready(function(){
 
 
-	$("#portfolio-contant-active").mixItUp();
+    $("#portfolio-contant-active").mixItUp({
+        load: {
+            filter: '.Graphic'
+        }
+    });
 
 
 	$("#testimonial-slider").owlCarousel({
