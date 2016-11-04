@@ -466,8 +466,12 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 
-#portfolio-work .block .portfolio-contant ul li.Video {
-  width: 32.22%;
+#portfolio-work .block .portfolio-contant ul li.Mizzle {
+  width: 48.5%;
+}
+
+#portfolio-work .block .portfolio-contant ul li.Mizzle-header {
+  width: 100%;
 }
 
 #portfolio-work .block .portfolio-contant ul li.Moment {
