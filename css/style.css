@@ -828,3 +828,10 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+
+img.skill-icon{
+    width:42px;
+    height:42px;
+    margin:20px;
+}
